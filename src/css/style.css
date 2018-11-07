@@ -101,3 +101,15 @@ h {
 
 .testimonial p {
   font-size: 10px; }
+
+.carousel-img-1 {
+  background: url("../img/04.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/03.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/img7.jpg");
+  background-size: cover; }

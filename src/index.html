@@ -39,29 +39,56 @@
     </div>
   </nav>
 <!--body part-->
-<div class="container-fluid bannergb py-5">
-  <div class="row">
-    <div class="col-md-6">
-      <h1 class="display-4 text-light mt-5">Mad Makeup <br>Markdowns!</h1>
-      <p class="lead text-light">Get the cosmatic you need at the prices you want</p>
-      <button class="btn btn-primary">check out the glam!</button>
+<section id="showcase" class="bg-dark">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-slide-to="0" data-target="#myCarousel" class="active"  ></li>
+      <li data-slide-to="2" data-target="#myCarousel"></li>
+      <li data-slide-to="3" data-target="#myCarousel"   ></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item carousel-img-1 active">
+        <div class="container">
+          <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+            <h2 class="display-4">Heading One</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
+            <a href="" class="btn btn-warning">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-img-2">
+        <div class="container">
+          <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+            <h2 class="display-4">Heading Two</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
+            <a href="" class="btn btn-danger">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-img-3">
+        <div class="container">
+          <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-left">
+            <h2 class="display-4">Heading Three</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at esse, voluptatibus tenetur ab obcaecati. Voluptatem expedita fugit minima sapiente!</p>
+            <a href="" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6 mt-5">
-      <img src="img/KAawBcS.png" class="img-fluid img-size" width="400" alt="">
-    </div>
+    <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
   </div>
 
-</div>
+</section>
 <!--home vedio section-->
 <div class="container-fluid bg-light">
   <div class="row">
     <div class="col-md-6">
-      <div uk-lightbox>
-        <a href="https://youtu.be/UDpL5ZFhXK0" class="text-light">
-          <i class="fa fa-play"></i>
-        </a>
-      </div>
-      <h2 class="mt-3">2hour Jobs</h2>
+      <iframe class="p-5" width="100%" height="436" src="https://www.youtube.com/embed/10sYesJhMbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="col-md-6 text-light">
       <h2 class="mt-3 display-5">What customers and press say about Backpack</h2>
