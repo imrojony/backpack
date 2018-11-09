@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,600,700&subset=latin-ext");
 body {
-  background: #333;
+  background: #fff;
   font-family: 'Raleway', sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -102,14 +102,16 @@ h {
 .testimonial p {
   font-size: 10px; }
 
-.carousel-img-1 {
-  background: url("../img/KAawBcS.png");
-  background-size: cover; }
+.popular-category-container a {
+  color: #70bf41; }
 
-.carousel-img-2 {
-  background: url("../img/03.jpg");
-  background-size: cover; }
+.popular-category-container span {
+  color: #95989D; }
 
-.carousel-img-3 {
-  background: url("../img/img7.jpg");
-  background-size: cover; }
+#account ul {
+  list-style: none; }
+  #account ul li:first-child {
+    font-weight: 600;
+    font-size: 18px; }
+  #account ul li {
+    margin-bottom: 5px; }
