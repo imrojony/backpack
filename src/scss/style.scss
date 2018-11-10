@@ -126,6 +126,17 @@ h{
     li{
       margin-bottom: 5px;
     }
+    .btn:hover{
+      background-color: transparent;
+      color: inherit;
+    }
+  }
+}
+#footer-navber{
+  .nav-item{
+    .nav-link{
+      color: black;
+    }
   }
 }
 

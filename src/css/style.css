@@ -115,3 +115,9 @@ h {
     font-size: 18px; }
   #account ul li {
     margin-bottom: 5px; }
+  #account ul .btn:hover {
+    background-color: transparent;
+    color: inherit; }
+
+#footer-navber .nav-item .nav-link {
+  color: black; }
