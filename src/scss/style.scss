@@ -139,4 +139,52 @@ h{
     }
   }
 }
+#popularleft{
+  background:url("../img/right-section.jpg");
+  background-size: cover;
+  padding: 15px;
+  ul{
+    list-style: none;
+    li{
+      color:#fff;
+    }
+  }
+
+}
+  .leftoverlay:before{
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+    display: block;
+    z-index:0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #popularright{
+    background:url("../img/right-section.jpg");
+    background-size: cover;
+    padding: 15px;
+    ul{
+      list-style: none;
+      li{
+        color:#fff;
+      }
+    }
+
+  }
+
+.rightoverlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:auto;
+  display: block;
+  z-index:0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 
