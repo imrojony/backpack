@@ -131,19 +131,23 @@ h {
     #popularleft ul li {
       color: #fff; }
 
+.row.no-gutter [class*='col-']:not(:first-child):not(:last-child) {
+  padding-right: 5px;
+  padding-left: 5px; }
+
 .leftoverlay:before {
   position: absolute;
   content: " ";
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   z-index: 0;
   background-color: rgba(0, 0, 0, 0.5); }
 
 #popularright {
-  background: url("../img/right-section.jpg");
+  background: url("../img/left-section.jpg");
   background-size: cover;
   padding: 15px; }
   #popularright ul {
@@ -157,7 +161,7 @@ h {
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   z-index: 0;
   background-color: rgba(0, 0, 0, 0.5); }

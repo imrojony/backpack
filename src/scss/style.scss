@@ -143,6 +143,7 @@ h{
   background:url("../img/right-section.jpg");
   background-size: cover;
   padding: 15px;
+
   ul{
     list-style: none;
     li{
@@ -151,40 +152,44 @@ h{
   }
 
 }
+.row.no-gutter [class*='col-']:not(:first-child):not(:last-child) {
+  padding-right:5px;
+  padding-left:5px;
+}
   .leftoverlay:before{
     position: absolute;
     content:" ";
     top:0;
     left:0;
     width:100%;
-    height:auto;
+    height:100%;
     display: block;
     z-index:0;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  #popularright{
-    background:url("../img/right-section.jpg");
-    background-size: cover;
-    padding: 15px;
-    ul{
-      list-style: none;
-      li{
-        color:#fff;
-      }
+#popularright{
+  background: url("../img/left-section.jpg");
+  background-size: cover;
+  padding: 15px;
+
+  ul{
+    list-style: none;
+    li{
+      color: #fff;
     }
-
   }
-
+}
 .rightoverlay:before{
   position: absolute;
   content:" ";
   top:0;
   left:0;
   width:100%;
-  height:auto;
+  height:100%;
   display: block;
   z-index:0;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 
