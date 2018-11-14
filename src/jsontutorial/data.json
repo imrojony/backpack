@@ -1,0 +1,143 @@
+//[] arrary
+// starting with [] and multiple object1
+
+//{} object
+// there are to way to get about object one is starting with {} and another is all element in them.
+
+//{
+//  "key": "value"
+//}
+//[
+//{
+//  "id":1,
+//  "name": "rojony",
+//  "email": "imrojony@gmail.com",
+//  "username":"imrojony",
+//  "present_address": {
+//    "street": "pallabi,gate-4 extention pallabi mirpur 11.5",
+//    "city": "dhaka",
+//    "zip_code":"1216",
+//    "country":"bangladesh"
+//  },
+//  "permanent_address":{
+//    "street":"kedarnagore",
+//    "city":"alamdange",
+//    "zip_code":"7210",
+//    "country":"banladesh"
+//  },
+//  "user_role": 0
+//},
+//  {
+//    "id": 2,
+//    "name": "sohag",
+//    "email": "imsohag@gmail.com",
+//    "username": "imsohag",
+//    "present_address": {
+//      "street": "pallabi,gate-4 extention pallabi mirpur 11.5",
+//      "city": "dhaka",
+//      "zip_code": "1216",
+//      "country": "bangladesh"
+//    },
+//    "permanent_address": {
+//      "street": "kedarnagore",
+//      "city": "alamdange",
+//      "zip_code": "7210",
+//      "country": "banladesh"
+//    },
+//    "user_role": 0
+//  }
+//
+//]
+//student info
+
+[
+  {
+  "id": 1,
+  "name": "rojony",
+  "roll": "123",
+  "subjects": [
+    {
+      "subjectsname": "bangla",
+      "subjectsCode": "111"
+    },
+    {
+      "subjectsname": "english",
+      "subjectsCode": "222"
+    },
+    {
+      "subjectsname": "math",
+      "subjectsCode": "333"
+    }
+  ]
+  },
+  {
+  "id": 2,
+  "name": "sohag",
+  "roll": "123",
+  "subjects":[
+    {
+      "subjectsname": "math",
+      "subjectsCode": "333"
+    },
+
+    {
+    "subjectsname": "bangla",
+    "subjectsCode": "111"
+    },
+
+    {
+    "subjectsname":"chemistry",
+      "subjectsCode":"444"
+    }
+  ]
+  },
+  {
+  "id": 2,
+  "name": "sohag",
+  "roll": "123",
+  "subjects": []
+
+  },
+  {
+    "id": 3,
+    "name": "romony",
+    "roll": "123",
+    "subjects":[
+      {
+        "subjectsname": "math",
+        "subjectsCode": "333"
+      },
+
+      {
+        "subjectsname": "bangla",
+        "subjectsCode": "111"
+      },
+
+      {
+        "subjectsname":"chemistry",
+        "subjectsCode":"444"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "sunnat",
+    "roll": "123",
+    "subjects":[
+      {
+        "subjectsname": "math",
+        "subjectsCode": "333"
+      },
+
+      {
+        "subjectsname": "bangla",
+        "subjectsCode": "111"
+      },
+
+      {
+        "subjectsname":"chemistry",
+        "subjectsCode":"444"
+      }
+    ]
+  }
+]
