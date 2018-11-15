@@ -50,94 +50,169 @@
 //]
 //student info
 
+//[
+//  {
+//  "id": 1,
+//  "name": "rojony",
+//  "roll": "123",
+//  "subjects": [
+//    {
+//      "subjectsname": "bangla",
+//      "subjectsCode": "111"
+//    },
+//    {
+//      "subjectsname": "english",
+//      "subjectsCode": "222"
+//    },
+//    {
+//      "subjectsname": "math",
+//      "subjectsCode": "333"
+//    }
+//  ]
+//  },
+//  {
+//  "id": 2,
+//  "name": "sohag",
+//  "roll": "123",
+//  "subjects":[
+//    {
+//      "subjectsname": "math",
+//      "subjectsCode": "333"
+//    },
+//
+//    {
+//    "subjectsname": "bangla",
+//    "subjectsCode": "111"
+//    },
+//
+//    {
+//    "subjectsname":"chemistry",
+//      "subjectsCode":"444"
+//    }
+//  ]
+//  },
+//  {
+//  "id": 2,
+//  "name": "sohag",
+//  "roll": "123",
+//  "subjects": []
+//
+//  },
+//  {
+//    "id": 3,
+//    "name": "romony",
+//    "roll": "123",
+//    "subjects":[
+//      {
+//        "subjectsname": "math",
+//        "subjectsCode": "333"
+//      },
+//
+//      {
+//        "subjectsname": "bangla",
+//        "subjectsCode": "111"
+//      },
+//
+//      {
+//        "subjectsname":"chemistry",
+//        "subjectsCode":"444"
+//      }
+//    ]
+//  },
+//  {
+//    "id": 4,
+//    "name": "sunnat",
+//    "roll": "123",
+//    "subjects":[
+//      {
+//        "subjectsname": "math",
+//        "subjectsCode": "333"
+//      },
+//
+//      {
+//        "subjectsname": "bangla",
+//        "subjectsCode": "111"
+//      },
+//
+//      {
+//        "subjectsname":"chemistry",
+//        "subjectsCode":"444"
+//      }
+//    ]
+//  }
+//]
 [
-  {
-  "id": 1,
-  "name": "rojony",
-  "roll": "123",
-  "subjects": [
-    {
-      "subjectsname": "bangla",
-      "subjectsCode": "111"
-    },
-    {
-      "subjectsname": "english",
-      "subjectsCode": "222"
-    },
-    {
-      "subjectsname": "math",
-      "subjectsCode": "333"
-    }
+{
+  "id":1,
+  "name":"sku",
+  "frogjama":"sku01",
+  "price":
+      {
+        "regular_price":"120",
+        "sale_price":"120"
+      },
+  "imges":
+      [
+        {
+          "url": ""
+        },
+        {
+          "url": ".jpg"
+        },
+        {
+          "url":".jpg"
+        }
+      ],
+  "catagories":
+      [
+        {
+          "dress_type":"dress"
+        },
+        {
+          "dress_type":"women"
+        },
+
+        {
+
+          "dress_type":"fashon"
+        }
+      ]
+
+},
+{
+  "id":1,
+  "name":"sku",
+  "fullpant":"sku01",
+  "price":
+      {
+        "regular_price":"120",
+        "sale_price":"120"
+      },
+  "imges":
+      [
+        {
+          "url": ""
+        },
+        {
+          "url": ".jpg"
+        },
+        {
+          "url":".jpg"
+        }
+      ],
+  "catagories":
+      [
+        {
+          "dress_type":"dress"
+        },
+        {
+          "dress_type":"man"
+        },
+
+        {
+
+          "dress_type":"fashon"
+        }
+      ]
+}
   ]
-  },
-  {
-  "id": 2,
-  "name": "sohag",
-  "roll": "123",
-  "subjects":[
-    {
-      "subjectsname": "math",
-      "subjectsCode": "333"
-    },
-
-    {
-    "subjectsname": "bangla",
-    "subjectsCode": "111"
-    },
-
-    {
-    "subjectsname":"chemistry",
-      "subjectsCode":"444"
-    }
-  ]
-  },
-  {
-  "id": 2,
-  "name": "sohag",
-  "roll": "123",
-  "subjects": []
-
-  },
-  {
-    "id": 3,
-    "name": "romony",
-    "roll": "123",
-    "subjects":[
-      {
-        "subjectsname": "math",
-        "subjectsCode": "333"
-      },
-
-      {
-        "subjectsname": "bangla",
-        "subjectsCode": "111"
-      },
-
-      {
-        "subjectsname":"chemistry",
-        "subjectsCode":"444"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "sunnat",
-    "roll": "123",
-    "subjects":[
-      {
-        "subjectsname": "math",
-        "subjectsCode": "333"
-      },
-
-      {
-        "subjectsname": "bangla",
-        "subjectsCode": "111"
-      },
-
-      {
-        "subjectsname":"chemistry",
-        "subjectsCode":"444"
-      }
-    ]
-  }
-]
