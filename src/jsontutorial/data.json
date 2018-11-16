@@ -141,78 +141,120 @@
 //    ]
 //  }
 //]
+//[
+//{
+//  "id":1,
+//  "name":"sku",
+//  "frogjama":"sku01",
+//  "price":
+//      {
+//        "regular_price":"120",
+//        "sale_price":"120"
+//      },
+//  "imges":
+//      [
+//        {
+//          "url": ""
+//        },
+//        {
+//          "url": ".jpg"
+//        },
+//        {
+//          "url":".jpg"
+//        }
+//      ],
+//  "catagories":
+//      [
+//        {
+//          "dress_type":"dress"
+//        },
+//        {
+//          "dress_type":"women"
+//        },
+//
+//        {
+//
+//          "dress_type":"fashon"
+//        }
+//      ]
+//
+//},
+//{
+//  "id":1,
+//  "name":"sku",
+//  "fullpant":"sku01",
+//  "price":
+//      {
+//        "regular_price":"120",
+//        "sale_price":"120"
+//      },
+//  "imges":
+//      [
+//        {
+//          "url": ""
+//        },
+//        {
+//          "url": ".jpg"
+//        },
+//        {
+//          "url":".jpg"
+//        }
+//      ],
+//  "catagories":
+//      [
+//        {
+//          "dress_type":"dress"
+//        },
+//        {
+//          "dress_type":"man"
+//        },
+//
+//        {
+//
+//          "dress_type":"fashon"
+//        }
+//      ]
+//}
+//  ]
 [
-{
-  "id":1,
-  "name":"sku",
-  "frogjama":"sku01",
-  "price":
+  {
+    "id": "1",
+    "title": "Learn interactive UX Design",
+    "slug": "Learn-interective-ux-design",
+    "images": {
+      "Thumb": "https://google.com/html.jpg",
+      "Medium": "https://google.com/md-html.jpg",
+      "Full-size": " https://google.com/full-html.jpg"
+    },
+    "Categories": [
+      "udesignx",
+      "web design",
+      "html",
+      "css"
+    ],
+    "Author": []
+  },
+  {
+    "id":"2",
+    "title":"Easy Learning of golang",
+    "slug":"Easy-learning-of-golang",
+    "images":{
+      "Thumb": "https://google.com/html.jpg",
+      "Medium":"https://google.com/md-html.jpg",
+      "Full-size":" https://google.com/full-html.jpg"},
+    "Categories": ["web app", "api server", "golang"],
+    "Authors": [
       {
-        "regular_price":"120",
-        "sale_price":"120"
+      "Name": "Sohag",
+      "Url":" https://yourprofile.com/rojony/",
+      "TotalPosts":3
       },
-  "imges":
-      [
-        {
-          "url": ""
-        },
-        {
-          "url": ".jpg"
-        },
-        {
-          "url":".jpg"
-        }
-      ],
-  "catagories":
-      [
-        {
-          "dress_type":"dress"
-        },
-        {
-          "dress_type":"women"
-        },
-
-        {
-
-          "dress_type":"fashon"
-        }
-      ]
-
-},
-{
-  "id":1,
-  "name":"sku",
-  "fullpant":"sku01",
-  "price":
       {
-        "regular_price":"120",
-        "sale_price":"120"
-      },
-  "imges":
-      [
-        {
-          "url": ""
-        },
-        {
-          "url": ".jpg"
-        },
-        {
-          "url":".jpg"
-        }
-      ],
-  "catagories":
-      [
-        {
-          "dress_type":"dress"
-        },
-        {
-          "dress_type":"man"
-        },
+        "Name": "soitan",
+        "Url":" https://yourprofile.com/rojony/",
+        "TotalPosts":1
+      }
+    ]
+  }
 
-        {
-
-          "dress_type":"fashon"
-        }
-      ]
-}
-  ]
+]
